@@ -19,3 +19,9 @@ In your Firefox open `about:profiles` and open the "root" directory for your cur
 ## Compatibility
 
 Firefox 106 (in 2022) has changed a lot of things. This customization is tested to work with this version.
+
+
+## Your own customization
+
+I used the following excellent
+[instructions for live-debugging userChrome.css](https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_livedebug_userchromecss/). You can use them to try out your own adjustments.
