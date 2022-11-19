@@ -6,14 +6,14 @@ Fortunately the Firefox UI is highly customizable with JavaScript and even just 
 
 ![ultra compact Firefox tab bar](ultra-compact-firefox-tab-bar-screenshot.png)
 
-Screenshot is made on Ubuntu Mate 22.04, with Firefox Title Bar deactivated (right click on toolbar > customize > s. checkbox in the down left corner). Tabs bar takes 31px, together with url bar 81px.
+Screenshot is made on Ubuntu Mate 22.04, with Firefox Title Bar deactivated (right click on toolbar > customize > s. checkbox in the down left corner). Tabs bar now takes just 31px, together with url bar 81px.
 
 
 ## Installation instructions
 
 In your Firefox open `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true` (just double click on the value)
 
-In your Firefox open `about:profiles` and open the "root" directory for your current Firefox profile. Create `chrome` subfolder, if it does not exist. And save the custom `userChrome.css` to that folder. On github you can open the file, click on `raw` view, then "save as" to the above mentioned folder.
+In your Firefox open `about:profiles` and open the "root" directory for your current Firefox profile. Create `chrome` subfolder, if it does not exist and save the custom `userChrome.css` to that folder. On github you can open my userChrome.css file, review it's content, then click on `raw` view, then "save as" to the above mentioned folder.
 
 
 ## Compatibility
