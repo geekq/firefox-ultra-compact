@@ -1,0 +1,44 @@
+/* Even more compact tabs, by vd, 2022 */
+
+:root[uidensity=compact] {
+  --tab-min-height: 22px !important;
+  --inline-tab-padding: 2px !important;
+  --urlbar-container-height: 20px !important;
+  --urlbar-min-height: 20px !important;
+  --urlbar-icon-padding: 1px !important;
+  --toolbarbutton-inner-padding: 1px !important;
+  --toolbarbutton-outer-padding: 1px !important;
+}
+
+#TabsToolbar {
+  height: 24px !important; /* instead of 37px of compact mode */
+}
+
+#TabsToolbar .tab-background {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  min-height: 20px !important;;
+}
+
+#TabsToolbar .tab-label {
+  line-height: 1 !important;
+}
+
+#TabsToolbar .tabbrowser-tab {
+  min-height: inherit !important;
+}
+
+#TabsToolbar .tabbrowser-tab .tab-background
+{
+  height: inherit !important;
+  min-height: inherit !important;
+}
+
+#tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
+  height: inherit !important;
+  min-height: inherit !important;
+}
+
+.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"] {
+	width: 1px !important;
+}
